@@ -1,8 +1,8 @@
 function changeColourOnMatch(target){
-  target.style.color = "rgb(4,199,69)"
+  target.style.color = "rgb(4,199,100)"
 }
 function changeColourNoMatch(target){
-  target.style.color = "#272727"
+  target.style.color = "#333"
 }
 
 var passClass = document.getElementsByClassName("checkPassword");
