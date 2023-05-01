@@ -11,7 +11,13 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #dc143c;
+  background: linear-gradient( 45deg,
+      #7424f3,
+      #a679ee,
+      #c2ace6,
+      #75d2e9,
+      #42bfdf
+    );
 }
 
 .inputField{
@@ -22,7 +28,7 @@ input[type="password"],
 input[type="text"], button{
   height: 50px;
   border: 4px solid #fff;
-  background: rgb(202, 162, 162);
+  background: rgb(156, 184, 202);
   padding: 0 10px;
   outline: none;
   font-size: 22px;
@@ -46,7 +52,7 @@ button{
 }
 
 ul{
-  background: rgb(202, 162, 162);
+  background: rgb(156, 184, 202);
   padding: 0.5rem 2rem;
   margin-top: 1.5rem;
   border-radius: 8px;
